@@ -1,0 +1,79 @@
+body {
+	text-align: center;
+	font-family: "Raleway", "Josefin San", sans-serif;
+	font-size: 20px;
+}
+.navbar {
+	background-color: #000000;
+}
+.jumbotron {
+	background: url(http://www.skyballoondesign.com/wp-content/uploads/2016/12/Home-Banner.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 500px;	
+}
+.main {
+	padding-top: 100px;
+	color: #ffffff;
+}
+
+h1 {
+	text-align: center;
+}
+
+#portfolio {
+	padding: 40px;
+  font-size: 20px;
+}
+
+.screenShots {
+	padding-bottom: 40px;
+}
+
+#about {
+	padding: 40px;
+	background-color: #4C9CDD;
+  	font-size: 20px;
+}
+
+#loveLearning {
+  font-size:40px;
+}
+
+#contact {
+	padding: 40px;
+  font-size: 20px;
+}
+
+#nameBox {
+	width: 500px;
+}
+
+#emailBox {
+	width: 500px;
+}
+
+#messageBox {
+	width: 1000px;
+	height: 200px;
+}
+
+#footer {
+	color: #ffffff;
+	padding: 5px;
+	background-color: #000000;
+}
+
+.divider {border-color: black;
+  border-width: 5px;
+  margin-top: 15px;
+  margin-bottom:25px;
+  max-width: 500px;
+}
+
+.portfolio-pic {
+	border: 10px double #4C9CDD;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
