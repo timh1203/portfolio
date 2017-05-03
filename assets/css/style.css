@@ -26,12 +26,7 @@ h1 {
 .screenShots {
 	padding-bottom: 40px;
 }
-.comingSoon {
-  float: right;
-  width: 100px;
-  height: 100px; 
-  position: relative;
-}
+
 #about {
 	padding: 40px;
 	background-color: #4C9CDD;
