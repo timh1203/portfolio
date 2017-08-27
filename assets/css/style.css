@@ -46,7 +46,35 @@ nav li {
   text-decoration: none;
   color: white;
 }
-.divider {border-color: black;
+header{
+  text-align: center;
+}
+#social {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+}
+#social a {
+  color: black;
+  padding: 10px 10px;
+}
+#portfolio {
+  background-color: #4486ff;
+  text-align: center;
+}
+#blog{
+  text-align: center;
+}
+#about{
+  text-align: center;
+}
+#contact{
+  text-align: center;
+}
+#footer{
+  text-align: center;
+}
+#divider {border-color: black;
   border-width: 5px;
   margin-top: 15px;
   margin-bottom:25px;
