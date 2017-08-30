@@ -15,10 +15,12 @@ header h2 {
   font-family: 'Quicksand', sans-serif;
   font-weight: bold;
   font-size: 40px;
+  text-shadow: 0px 0px 3px black;
 }
 header h3 {
   font-family: 'Quicksand', sans-serif;
   font-size: 20px;  
+  text-shadow: 0px 0px 3px black;
 }
 .wrapper {
   font-size: 16px;
@@ -27,15 +29,17 @@ header h3 {
   padding:50px;
 }
 #banner {
-  background-image: url('file:///D:/webDev/myProjects/portfolio/assets/img/aurora_1920x1280.jpg');
+  background-image: url('file:///D:/webDev/myProjects/portfolio/assets/img/morning_192x1280.jpg');
   background-size: cover;            
   background-repeat: no-repeat;
   background-position: center center;    
+  height: 60vh;
 }
 nav ul {
   display:flex;
   align-self: flex-start;
   background: transparent;
+  font-size: 20px;
   font-weight: 100;
   letter-spacing: 2px;
   list-style: none;
@@ -54,7 +58,7 @@ nav a {
   text-shadow: 0px 0px 3px black;
 }
 nav a:hover {
-  background:rgba(255,255,255,0.3);
+  background:rgba(0, 0, 0, 0.3);
 }
 nav li {
   text-decoration: none;
@@ -79,7 +83,7 @@ header{
   padding: 10px 10px;
 }
 #social a:hover {
-  background:rgba(255,255,255,0.3);
+  background:rgba(0, 0, 0, 0.3);
 }
 #portfolio {
   background-color: #4486ff;
