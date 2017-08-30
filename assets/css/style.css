@@ -84,7 +84,7 @@ header{
   background:rgba(0, 0, 0, 0.3);
 }
 #portfolio {
-  background-color: #4486ff;
+  /* background-color: lightslategray; */
   text-align: center;
 }
 #projects {
@@ -104,7 +104,6 @@ header{
 }
 #projects img {
   width: 300px;
-  height: 168px;
 }
 #blog{
   text-align: center;
