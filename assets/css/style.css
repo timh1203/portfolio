@@ -25,8 +25,6 @@ header h3 {
 .wrapper {
   font-size: 16px;
   max-width: 1000px;
-  margin: 0 auto;
-  padding:50px;
 }
 #banner {
   background-image: url('file:///D:/webDev/myProjects/portfolio/assets/img/morning_192x1280.jpg');
@@ -89,6 +87,25 @@ header{
   background-color: #4486ff;
   text-align: center;
 }
+#projects {
+  font-size: 14px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+#projects > * {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+  box-shadow: 1px 1px 10px black;
+}
+#demo {
+  text-align: left;
+}
+#projects img {
+  width: 300px;
+  height: 168px;
+}
 #blog{
   text-align: center;
 }
@@ -105,7 +122,7 @@ header{
   border-width: 5px;
   margin-top: 15px;
   margin-bottom:25px;
-  max-width: 500px;
+  max-width: 80vw;
 }
 
 @media all and (max-width:1000px) {
