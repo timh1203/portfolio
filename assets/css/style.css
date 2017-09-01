@@ -13,6 +13,15 @@ body {
   max-width: 1000px;
   font-size: 16px;
 }
+#divider {
+  border-color: black;
+  border-width: 5px;
+  margin-top: 15px;
+  margin-bottom:25px;
+  max-width: 80vw;
+}
+
+/* Banner */
 #banner {
   background-image: url('file:///D:/webDev/myProjects/portfolio/assets/img/morning_192x1280.jpg');
   background-size: cover;            
@@ -79,6 +88,8 @@ header h3 {
 #social a:hover {
   background:rgba(0, 0, 0, 0.3);
 }
+
+/* Portfolio */
 #portfolio {
   text-align: center;
 }
@@ -98,23 +109,44 @@ header h3 {
 #projects img {
   width: 300px;
 }
-#blog{
+
+/* Blog */
+#blog {
   text-align: center;
 }
-#about{
+
+/* About */
+#about {
   text-align: center;
 }
+#profile {
+  display: flex;
+  justify-content: space-around;
+}
+#profile > * {
+  margin: 10px;
+  padding: 10px;
+  width: 40%;
+  box-shadow: 1px 1px 10px black;
+}
+#profile-right > * {
+  margin: 20px;
+  padding: 20px;
+}
+#tools > * {
+  padding: 10px;
+  margin: 10px;
+  width: 100px;
+}
+
+/* Contact */
 #contact{
   text-align: center;
 }
+
+/* footer */
 #footer{
   text-align: center;
-}
-#divider {border-color: black;
-  border-width: 5px;
-  margin-top: 15px;
-  margin-bottom:25px;
-  max-width: 80vw;
 }
 
 @media all and (max-width:1000px) {
