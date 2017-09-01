@@ -107,7 +107,8 @@ header h3 {
   box-shadow: 1px 1px 10px black;
 }
 #projects img {
-  width: 300px;
+  max-width:100%;
+  max-height:100%;
 }
 
 /* Blog */
@@ -122,6 +123,7 @@ header h3 {
 #profile {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 #profile > * {
   margin: 10px;
@@ -129,13 +131,16 @@ header h3 {
   width: 40%;
   box-shadow: 1px 1px 10px black;
 }
+#profile img {
+  max-width:100%;
+  max-height:100%;
+}
 #profile-right > * {
-  margin: 20px;
-  padding: 20px;
+  padding-bottom: 30px;
 }
 #tools > * {
-  padding: 10px;
-  margin: 10px;
+  padding: 15px;
+  margin: 15px;
   width: 100px;
 }
 
