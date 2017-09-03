@@ -30,8 +30,8 @@ h3 {
   max-width: 80vw;
 }
 
-/* Banner */
-#banner {
+/* Main */
+#main {
   background-image: url('file:///D:/webDev/myProjects/portfolio/assets/img/morning_192x1280.jpg');
   background-size: cover;            
   background-repeat: no-repeat;
@@ -55,7 +55,7 @@ nav a {
   width: 100%;
   display: inline-block;
   padding: 20px 5px;
-  transition: all 0.3s;
+  transition: all 0.2s ease;
   text-decoration: none;
   color: black;
 
@@ -63,6 +63,8 @@ nav a {
 }
 nav a:hover {
   background:rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  transform: scale(1.1);
 }
 header{
   color: white;
@@ -84,15 +86,18 @@ header h3 {
 #social {
   font-size: large;
   
-  justify-content: center;
   display: flex;
+  justify-content: center;
 }
 #social a {
   padding: 10px 10px;
   color: white;
+  transition: all 0.2s ease;  
 }
 #social a:hover {
   background:rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  transform: scale(1.2);
 }
 
 /* Portfolio */
@@ -149,6 +154,7 @@ header h3 {
 /* Contact */
 #contact {
   text-align: center; 
+  padding-bottom: 50px;
 }
 #emailForm {
   display: flex;
@@ -183,7 +189,7 @@ input:focus, textarea:focus {
   height: 10em;
 }
 #send {
-  transition: all 0.3s ease;
+  transition: all 0.2s ease;
 }
 #send:hover {
   background-color: lightblue;
@@ -191,8 +197,52 @@ input:focus, textarea:focus {
 }
 
 /* footer */
-#footer{
+#footer {
+  background: black;
+  color: white;
   text-align: center;
+  padding-bottom: 20px;
+
+  display: flex;
+  justify-content: space-around;
+}
+#footer > * {
+  width: 30%;
+  line-height: 2em;
+}
+#footer-nav-links {
+  display: flex;
+  justify-content: center;
+}
+#footer-nav-links a {
+  font-size: 1em;
+  padding: 3px 20px;
+  transition: all 0.2s ease;
+  
+  flex: 1 1 100%;
+}
+#footer-nav-links a:hover {
+  background:rgba(255, 255, 255, 0.3);
+  border-radius: 20px;
+  text-decoration: none;
+  transform: scale(1.2);
+}
+#footer-social-icons {
+  display: flex;
+  justify-content: center;
+}
+#footer-social-icons a {
+  font-size: 2em;
+  padding: 0 15px;
+  transition: all 0.2s ease;
+}
+#footer-social-icons a:hover {
+  background:rgba(255, 255, 255, 0.3);
+  border-radius: 50px;
+  transform: scale(1.2);
+}
+#footer a:visited {
+  color: white;
 }
 
 @media all and (max-width:1000px) {

@@ -16,8 +16,8 @@
 
 <body>
 <div id="wrapper">
-  <section id="banner">
-    <nav id="nav">
+  <section id="main">
+    <nav>
       <ul>
         <a href="#main"><li>Main</li></a>
         <a href="#portfolio"><li>Portfolio</li></a>
@@ -27,7 +27,7 @@
       </ul>
     </nav>
       
-    <header id="header">
+    <header>
       <h2>Timothy Hoang</h2>
       <h3>Pharmacist to Front End Developer</h3>
       <div id="social">
@@ -41,7 +41,7 @@
   </section>
       
   <section id="portfolio">
-    <h1><i class="fa fa-folder-open-o" aria-hidden="true"></i>Portfolio</h1>
+    <h1><i class="fa fa-folder-open-o" aria-hidden="true"></i> Portfolio</h1>
     <hr id="divider">
     <div id="projects">
       <div id="chromeExtension">
@@ -210,7 +210,7 @@
         <form action="timh1203@gmail.com" method="POST">
             <ul>
               <li>
-                  <p>If you'd like to get in touch with me, please send me a message. Thanks for visiting!</p>
+                <p>If you'd like to get in touch with me, please send me a message. Thanks for visiting!</p>
               </li>
               <li>
                 <input id="firstName" type="text" name="firstName" placeholder="First Name" required>
@@ -223,7 +223,7 @@
                 <textarea id="messageBox" type="text" name="message" placeholder="Message" required></textarea>
               </li>
               <li>
-                  <input id="send" type="submit" value="Send">
+                <input id="send" type="submit" value="Send">
               </li>
             </ul>
         </form>
@@ -232,21 +232,32 @@
   </section>
   
   <footer id="footer">
-    <h1>About This Page</h1>
-    <p>A personal portfolio project page for Timothy H.</p>
-    <p>Visit me on Free Code Camp.</p>
-    <a href="https://www.freecodecamp.com/timh1203" target="_blank"><button type="button" class="btn btn-primary btn-lg outline" id="fcc-button">My FCC Page</button></a>
+    <div id="footer-blurb">
+      <h2>About This Page</h2>
+      <p>The personal portfolio site of Timothy Hoang.</p>
+    </div>
   
-    <h1>Quick Links</h1>
-      <a href="#main"><p>Home</p></a>
-      <a href="#portfolio"><p>Portfolio</p></a>
-      <a href="#about"><p>About</p></a>
-      <a href="#contact"><p>Contact</p></a>
+    <div id="footer-nav">
+      <h2>Quick Links</h2>
+      <div id="footer-nav-links">
+            <a href="#main">Main</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#blog">Blog</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+      </div>
+    </div>
   
-    <h1>Follow Me</h1>
-      <a href="https://github.com/timh1203"><i class="fa fa-github fa-5x" aria-hidden="true"></i></a>
-      <a href="https://www.linkedin.com/in/timothyhoang/"><i class="fa fa-linkedin-square fa-5x" aria-hidden="true"></i></a>
-      <a href="https://twitter.com/traveldev"><i class="fa fa-twitter-square fa-5x" aria-hidden="true"></i></a>
+    <div id="footer-social">
+      <h2>Follow Me</h2>
+      <div id="footer-social-icons">
+          <a href="https://github.com/timh1203"><i class="fa fa-github" aria-hidden="true"></i></a> 
+          <a href="https://medium.com/@timh1203"><i class="fa fa-medium" aria-hidden="true"></i></a> 
+          <a href="https://www.linkedin.com/in/timothyhoang/"><i class="fa fa-linkedin" aria-hidden="true"></i></a> 
+          <a href="https://www.freecodecamp.org/timh1203"><i class="fa fa-free-code-camp" aria-hidden="true"></i></a> 
+          <a href="http://traveldev.net"><i class="fa fa-pencil" aria-hidden="true"></i></a> 
+      </div>
+    </div>     
   </footer>
 </div>
 </body>
