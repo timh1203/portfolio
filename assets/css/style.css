@@ -55,9 +55,9 @@ nav a {
   width: 100%;
   display: inline-block;
   padding: 20px 5px;
-  transition: all 0.2s ease;
   text-decoration: none;
   color: black;
+  transition: all 0.2s ease;
 
   flex: 1;  
 }
@@ -231,6 +231,7 @@ input:focus, textarea:focus {
   justify-content: center;
 }
 #footer-nav-links a {
+  display: inline-block;
   font-size: 1em;
   padding: 3px 20px;
   transition: all 0.2s ease;
@@ -248,8 +249,9 @@ input:focus, textarea:focus {
   justify-content: center;
 }
 #footer-social-icons a {
-  font-size: 2em;
-  padding: 0 15px;
+  display: inline-block;
+  font-size: 1.5em;
+  padding: 3px 20px;
   transition: all 0.2s ease;
 
   flex: 1 1 50%;
@@ -350,12 +352,3 @@ input:focus, textarea:focus {
     flex: 1 1 100%;
   }
 }
-
-/* http://www.skyballoondesign.com/wp-content/uploads/2016/12/Home-Banner.jpg
-
-#ffffff
-
-#000000
-
-#4C9CDD */
-#4C9CDD */
