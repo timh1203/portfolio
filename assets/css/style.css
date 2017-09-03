@@ -217,7 +217,7 @@ input:focus, textarea:focus {
   background: black;
   color: white;
   text-align: center;
-  padding-bottom: 20px;
+  padding-bottom: 15px;
 
   display: flex;
   justify-content: space-around;
@@ -251,6 +251,8 @@ input:focus, textarea:focus {
   font-size: 2em;
   padding: 0 15px;
   transition: all 0.2s ease;
+
+  flex: 1 1 50%;
 }
 #footer-social-icons a:hover {
   background:rgba(255, 255, 255, 0.3);
@@ -279,6 +281,25 @@ input:focus, textarea:focus {
     margin: 10px;
     width: 5.5em;
   }
+
+  /* Footer */
+  #footer-nav-links {
+    line-height: 2.5em;
+
+    flex-wrap: wrap;
+  }
+  #footer-nav-links > * {
+    flex: 1 1 100%;    
+  }
+  #footer-social-icons {
+    flex-wrap: wrap;
+  }
+  #footer-social-icons > * {
+    line-height: 2.5em;
+
+    flex: 1 1 50%;
+  }
+}
 
 @media all and (max-width:500px) {
   /* Banner */
@@ -321,6 +342,12 @@ input:focus, textarea:focus {
     padding: 8px;
     margin: 8px;
     width: 4.9em;
+  }
+
+  /* Footer */
+  #footer-social-icons a {
+    line-height: 1.5em;
+    flex: 1 1 100%;
   }
 }
 
