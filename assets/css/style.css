@@ -147,8 +147,47 @@ header h3 {
 }
 
 /* Contact */
-#contact{
-  text-align: center;
+#contact {
+  text-align: center; 
+}
+#emailForm {
+  display: flex;
+  justify-content: center;
+}
+form {
+  width: 60%;
+  box-shadow: 1px 1px 10px black;
+
+  display: flex;
+  justify-content: center;
+}
+form > * {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 20px;
+}
+form input, textarea {
+  width: 90%;
+  margin: 1%;
+  padding: 1%;
+  border: none;
+  box-shadow: 1px 1px 10px black;
+  font-family: 'Playfair Display', serif;
+  font-size: medium;
+}
+input:focus, textarea:focus {
+  background-color: lightblue;
+}
+#messageBox {
+  height: 10em;
+}
+#send {
+  transition: all 0.3s ease;
+}
+#send:hover {
+  background-color: lightblue;
+  cursor: pointer;
 }
 
 /* footer */
