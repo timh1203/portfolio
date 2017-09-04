@@ -63,7 +63,7 @@ nav a {
 }
 nav a:hover {
   background:rgba(0, 0, 0, 0.3);
-  border-radius: 5px;
+  border-radius: 50px;
   transform: scale(1.1);
 }
 header{
@@ -96,7 +96,7 @@ header h3 {
 }
 #social a:hover {
   background:rgba(255, 255, 255, 0.3);
-  border-radius: 5px;
+  border-radius: 20px;
   transform: scale(1.2);
 }
 
@@ -115,19 +115,70 @@ header h3 {
   width: 30%;
   box-shadow: 1px 1px 10px black;
   transition: all 0.2s ease;  
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
-#projects > *:hover{
+#tech {
+  align-self: center;
+}
+#projects > *:hover {
   background-color: lightblue;
+  border-radius: 5px;
   transform: scale(1.02);
 }
 #projects img {
-  max-width:100%;
-  max-height:100%;
+  max-width: 100%;
+  max-height: 100%;
+}
+#project-links {
+  display: flex;
+  justify-content: space-between;
 }
 
 /* Blog */
 #blog {
   text-align: center;
+}
+hr {
+  width: 50%;
+}
+#articles {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+#articles > * {
+  margin: 10px;
+  padding: 10px;
+  width: 30%;
+  box-shadow: 1px 1px 10px black;
+  transition: all 0.2s ease;
+}
+#articles > *:hover {
+  background-color: lightblue;
+  border-radius: 5px;
+  transform: scale(1.02);
+}
+#articles img {
+  max-width: 100%;
+  max-height: 100%;
+}
+#blog-button {
+  font-family: 'Playfair Display', serif;
+  width: 50%;
+  font-size: medium;
+  transition: all 0.2s ease;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+#blog-button:hover {
+  background-color: lightslategray;
+  border-radius: 20px;
+  transform: scale(1.05);
+  cursor: pointer;
 }
 
 /* About */
@@ -148,6 +199,7 @@ header h3 {
 }
 #profile > *:hover {  
   background-color: lightblue;
+  border-radius: 5px;
   transform: scale(1.02);
 }
 #profile img {
@@ -180,6 +232,7 @@ form {
 }
 form:hover{
   background-color: lightblue;
+  border-radius: 5px;
   transform: scale(1.02);
 }
 form > * {
@@ -199,16 +252,21 @@ form input, textarea {
   transition: all 0.2s ease;
 }
 input:focus, textarea:focus {
-  transform: scale(1.05);
+  transform: scale(1.05);  
+  border-radius: 20px;
+  outline: 0;
 }
 #messageBox {
   height: 10em;
 }
 #send {
+  border-radius: 5px;
   transition: all 0.2s ease;
 }
 #send:hover {
-  background-color: lightblue;
+  background-color: lightslategray;
+  transform: scale(1.05);
+  border-radius: 20px;
   cursor: pointer;
 }
 
@@ -284,6 +342,13 @@ input:focus, textarea:focus {
     width: 5.5em;
   }
 
+  /* Blog */
+  #blog-button {
+    flex: 1 1 100%;
+    max-width: 100%;
+    max-height: 100%;
+  }
+
   /* Footer */
   #footer-nav-links {
     line-height: 2.5em;
@@ -334,6 +399,13 @@ input:focus, textarea:focus {
   }
   #projects h2 {
     font-size: small;
+  }
+
+  /* Blog */
+  #blog-button {
+    flex: 1 1 100%;
+    max-height: 100%;
+    max-width: 100%;
   }
 
   /* About */
