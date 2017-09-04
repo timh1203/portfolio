@@ -9,7 +9,6 @@ body {
   padding: 0;
   font-family: 'Playfair Display', serif;
 }
-
 .wrapper {
   max-width: 1000px;
   text-align: center;
@@ -28,6 +27,25 @@ h3 {
   margin-top: 15px;
   margin-bottom:25px;
   max-width: 80vw;
+}
+#section-footer {
+  display: inline-block;
+  float: right;
+  margin: 0 5px;
+  padding: 0 5px;
+  font-size: 3em;
+  transition: all 1s ease;
+  text-shadow: 2px 2px 1px lightblue;
+}
+#section-footer:hover {  
+  text-shadow: 1px 1px 1px black;
+  transform: translateY(-10px);
+}
+#section-footer a {
+  color: black;
+}
+#section-footer a:hover {
+  color: lightblue;
 }
 
 /* Main */
@@ -102,7 +120,10 @@ header h3 {
 
 /* Portfolio */
 #portfolio {
+  overflow: hidden;
   text-align: center;
+  padding; 0;
+  margin: 0;
 }
 #projects {
   display: flex;
@@ -139,6 +160,7 @@ header h3 {
 
 /* Blog */
 #blog {
+  overflow: hidden;
   text-align: center;
 }
 hr {
@@ -183,6 +205,7 @@ hr {
 
 /* About */
 #about {
+  overflow: hidden;
   text-align: center;
 }
 #profile {
@@ -253,7 +276,7 @@ form input, textarea {
 }
 input:focus, textarea:focus {
   transform: scale(1.05);  
-  border-radius: 20px;
+  border-radius: 10px;
   outline: 0;
 }
 #messageBox {
