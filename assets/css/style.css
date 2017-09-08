@@ -185,16 +185,19 @@ hr {
   max-height: 100%;
 }
 #blog-button {
-  font-family: 'Playfair Display', serif;
+  background: lightgray;
   width: 50%;
+  font-family: 'Playfair Display', serif;
   font-size: medium;
+  text-decoration: none;
+  color: black;
   transition: all 0.2s ease;
   border-radius: 5px;
   border: none;
   outline: none;
 }
 #blog-button:hover {
-  background-color: lightslategray;
+  background-color: lightblue;
   border-radius: 20px;
   transform: scale(1.05);
   cursor: pointer;
