@@ -8,11 +8,8 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Playfair Display', serif;
-}
-.wrapper {
-  max-width: 1000px;
-  text-align: center;
   font-size: medium;
+  text-align: center;
 }
 h2 {
   font-family: 'Quicksand', sans-serif;
@@ -48,9 +45,9 @@ h3 {
   color: lightblue;
 }
 
-/* Main */
-#main {
-  background-image: url('file:///D:/webDev/myProjects/portfolio/assets/img/morning_192x1280.jpg');
+/* Header */
+header {
+  background-image: url('file:///D:/webDev/myProjects/portfolio/assets/img/morning-sun-1920x1280.jpg');
   background-size: cover;            
   background-repeat: no-repeat;
   background-position: center center;    
@@ -84,7 +81,7 @@ nav a:hover {
   border-radius: 50px;
   transform: scale(1.1);
 }
-header{
+#banner {
   color: white;
   text-align: center;
   height: 45vh;
@@ -93,11 +90,11 @@ header{
   flex-direction: column;
   justify-content: center;
 }
-header h2 {
+#banner h2 {
   font-size: xx-large;
   text-shadow: 0px 0px 3px black;
 }
-header h3 {
+#banner h3 {
   font-size: large;  
   text-shadow: 0px 0px 3px black;
 }
@@ -403,13 +400,13 @@ input:focus, textarea:focus {
 
     flex: 100%;  
   }
-  header{
+  banner{
     height: 30vh;
   }
-  header h2 {
+  banner h2 {
     font-size: x-large;
   }
-  header h3 {
+  banner h3 {
     font-size: medium;  
   }
   #social {
