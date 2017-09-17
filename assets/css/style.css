@@ -293,7 +293,7 @@ input:focus, textarea:focus {
   cursor: pointer;
 }
 
-/* footer */
+/* Footer */
 #footer {
   background: black;
   color: white;
@@ -301,6 +301,7 @@ input:focus, textarea:focus {
   padding-bottom: 15px;
 
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
 }
 #footer > * {
@@ -417,6 +418,9 @@ input:focus, textarea:focus {
   }
 
   /* Portfolio */
+  #projects > * {
+    flex: 1 1 100%;
+  }
   #projects {
     font-size: small;
   }
@@ -425,6 +429,9 @@ input:focus, textarea:focus {
   }
 
   /* Blog */
+  #articles > * {
+    flex: 1 1 100%;
+  }
   #blog-button {
     flex: 1 1 100%;
     max-height: 100%;
@@ -435,13 +442,29 @@ input:focus, textarea:focus {
   #about {
     font-size: small;
   }
+  #profile > * {
+    flex: 1 1 100%;
+  }
   #tools > * {
     padding: 8px;
     margin: 8px;
     width: 4.9em;
   }
 
+  /* Contact */
+  form {
+    margin: 1em;
+    flex: 1;
+  }
+
   /* Footer */
+  #footer > * {
+    padding: 1em;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    overflow: hidden;
+    
+    flex: 1 1 100%;
+  }
   #footer-social-icons a {
     line-height: 1.5em;
     flex: 1 1 100%;
