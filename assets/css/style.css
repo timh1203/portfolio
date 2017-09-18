@@ -197,7 +197,7 @@ hr {
   outline: none;
 }
 #blog-button:hover {
-  background-color: lightblue;
+  background-color: #ADD8E6;
   border-radius: 20px;
   transform: scale(1.05);
   cursor: pointer;
@@ -346,6 +346,36 @@ input:focus, textarea:focus {
 #footer a:visited {
   color: white;
 }
+
+/* first-article.html */
+#article {
+  align: middle;
+  text-align: left;
+  margin: 2em;
+  font-size: 1.5em;
+}
+#article img {
+  display: block;
+  margin: 0 auto;
+}
+#article-intro {
+  text-align: center;
+}
+#article h1 { 
+  font-size: 3em;
+}
+#article h2 {
+  font-size: 2em;
+}
+#article h3 {
+  font-size: 1.5em;
+}
+#article p {
+  font-size: 1em;
+}
+#article figcaption {
+  font-size: 0.75em;
+} 
 
 @media all and (max-width:1000px) {
   /* Banner */
