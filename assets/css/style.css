@@ -47,7 +47,7 @@ h3 {
 
 /* Header */
 header {
-  background-image: url('file:///D:/webDev/myProjects/portfolio/assets/img/morning-sun-1920x1280.jpg');
+  background-image: url('../img/morning-sun-1920x1280.jpg');
   background-size: cover;            
   background-repeat: no-repeat;
   background-position: center center;    
