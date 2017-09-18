@@ -291,29 +291,37 @@
         <h1><i class="fa fa-envelope-o" aria-hidden="true"></i> Contact</h1>
         <hr id="divider">
         <div id="emailForm">
-            <form action="timh1203@gmail.com" method="POST">
+            <form id="contact-form" method="POST">
                 <ul>
-                <li>
-                    <p>If you'd like to get in touch with me, please send me a message. Thanks for visiting!</p>
-                </li>
-                <li>
-                    <input id="firstName" type="text" name="firstName" placeholder="First Name" required>
-                    <input id="lastName" type="text" name="lastName" placeholder="Last Name" required>
-                </li>
-                <li>
-                    <input id="emailBox" type="email" name="_replyto" placeholder="Email" required>
-                </li>
-                <li>
-                    <textarea id="messageBox" type="text" name="message" placeholder="Message" required></textarea>
-                </li>
-                <li>
-                    <input id="send" type="submit" value="Send">
-                </li>
+                    <li>
+                        <input type="hidden" name="From" value="timothyhoang.net" />
+                    </li>
+                    <li>
+                        <input type="text" name="_gotcha" style="display:none" />
+                    </li>                  
+                    <li>
+                        <p>If you'd like to get in touch with me, please send me a message. Thanks for visiting!</p>
+                    </li>
+                    <li>
+                        <input id="firstName" type="text" name="First Name" placeholder="First Name" required />                    
+                    </li>
+                    <li>
+                        <input id="lastName" type="text" name="Last Name" placeholder="Last Name" required />
+                    </li>
+                    <li>
+                        <input id="emailBox" type="email" name="Email" placeholder="Email" required />
+                    </li>
+                    <li>
+                        <textarea id="messageBox" type="text" name="Message" placeholder="Message" required></textarea>
+                    </li>
+                    <li>
+                        <input id="send" type="submit" value="Send" />
+                    </li>
                 </ul>
             </form>
         </div>
     </section> <!-- #contact -->
-  
+    
     <footer id="footer">
         <div id="footer-blurb">
             <h2>About This Page</h2>
@@ -342,6 +350,10 @@
             </div>
         </div>     
     </footer>
-</div> <!-- #main -->
+    </div> <!-- #main -->
+    <script>
+    var contactform =  document.getElementById('contact-form');
+    contactform.setAttribute('action', 'https:' + '//formspree.io/' + 'timh1203' + '@' + 'gmail' + '.' + 'com');
+    </script>
 </body>
 </html>
