@@ -106,13 +106,13 @@ nav a:hover {
   justify-content: center;
 }
 #social a {
-  padding: 10px 10px;
+  padding: 3px 20px;
   color: white;
   transition: all 0.2s ease;  
 }
 #social a:hover {
   background:rgba(255, 255, 255, 0.3);
-  border-radius: 20px;
+  border-radius: 50px;
   transform: scale(1.2);
 }
 
@@ -327,7 +327,7 @@ input:focus, textarea:focus {
   text-decoration: none;
   transform: scale(1.2);
 }
-#footer-social-icons {
+#footer-social-icons {  
   display: flex;
   justify-content: center;
 }
