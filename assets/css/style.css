@@ -358,15 +358,16 @@ input:focus, textarea:focus {
 #article img {
   display: block;
   margin: 0 auto;
+  max-width: 50vw;
 }
 #article-intro {
   text-align: center;
 }
 #article h1 { 
-  font-size: 3em;
+  font-size: 2.5em;
 }
 #article h2 {
-  font-size: 2em;
+  font-size: 1.5em;
 }
 #article h3 {
   font-size: 1.5em;
