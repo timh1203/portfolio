@@ -1,3 +1,4 @@
+/* Defaults */
 html {
   box-sizing: border-box;
 }
@@ -63,7 +64,7 @@ nav {
   font-size: large;
   font-weight: 100;
   letter-spacing: 2px;
-
+  
   display:flex;
   align-self: flex-start;
 }
@@ -185,7 +186,7 @@ hr {
   max-width: 100%;
   max-height: 100%;
 }
-#blog-button {
+/* #blog-button {
   background: lightgray;
   width: 50%;
   font-family: 'Playfair Display', serif;
@@ -202,7 +203,7 @@ hr {
   border-radius: 20px;
   transform: scale(1.05);
   cursor: pointer;
-}
+} */
 
 /* About */
 #about {
@@ -309,6 +310,10 @@ input:focus, textarea:focus {
   width: 30%;
   line-height: 2em;
 }
+#footer a:link, #footer a:visited {
+  text-decoration: none;
+  color: white;
+}
 #footer-nav-links {
   display: flex;
   justify-content: center;
@@ -331,6 +336,7 @@ input:focus, textarea:focus {
   display: flex;
   justify-content: center;
 }
+
 #footer-social-icons a {
   display: inline-block;
   font-size: 1.5em;
