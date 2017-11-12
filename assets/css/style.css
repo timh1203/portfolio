@@ -386,22 +386,36 @@ input:focus, textarea:focus {
 } 
 
 @media all and (max-width:1000px) {
-  /* Banner */
-  nav ul {
-    letter-spacing: 3px;
+  /* Defaults */
+  h2 {
+    font-size: x-large;
+  }
+  h3 {
+    font-size: medium;  
+  }
+  #social {
+    font-size: large;
+  }
+  p {
+    font-size: medium;
+  }
 
+  /* Header */  
+  nav {
+    display: flex;
     flex-wrap: wrap;
   }
   nav a {
-    flex: 1 1 50%;  
+    flex: 1 1 50%;
   }
-  #about img {
-    width: 10em;
+
+  /* Portfolio */
+  #projects {
+    display: flex;
+    flex-wrap: wrap;
   }
-  #tools > * {
-    padding: 10px;
-    margin: 10px;
-    width: 5.5em;
+  #projects > div {
+    flex: 45%;
   }
 
   /* Blog */
@@ -411,6 +425,15 @@ input:focus, textarea:focus {
     max-height: 100%;
   }
 
+  /* About */
+  #about img {
+    width: 10em;
+  }
+  #tools > * {
+    padding: 10px;
+    margin: 10px;
+    width: 5.5em;
+  }
   /* Footer */
   #footer-nav-links {
     line-height: 2.5em;
@@ -431,39 +454,39 @@ input:focus, textarea:focus {
 }
 
 @media all and (max-width:500px) {
-  /* Banner */
-  nav ul {
-    font-size: medium;
-    letter-spacing: 4px;
+  /* Defaults */
+  h2 {
+    font-size: xx-large;
   }
-  nav a {
-    display: inline-block;
-    padding: 10px;
-
-    flex: 100%;  
-  }
-  banner{
-    height: 30vh;
-  }
-  banner h2 {
-    font-size: x-large;
-  }
-  banner h3 {
-    font-size: medium;  
+  h3 {
+    font-size: large;  
   }
   #social {
+    font-size: large;
+  }
+  p {
     font-size: medium;
+  }
+  /* Header */  
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  nav a {
+    flex: 1 1 100%;
+  }
+  #banner{
+    height: 30vh;
+    padding-bottom: 10vh;
   }
 
   /* Portfolio */
-  #projects > * {
-    flex: 1 1 100%;
-  }
   #projects {
-    font-size: small;
+    display: flex;
+    flex-wrap: wrap;
   }
-  #projects h2 {
-    font-size: small;
+  #projects div {
+    flex: 100%;
   }
 
   /* Blog */
@@ -500,11 +523,8 @@ input:focus, textarea:focus {
     padding: 1em;
     border: 1px solid rgba(255, 255, 255, 0.3);
     overflow: hidden;
+    font-size: large;
     
-    flex: 1 1 100%;
-  }
-  #footer-social-icons a {
-    line-height: 1.5em;
     flex: 1 1 100%;
   }
 }
