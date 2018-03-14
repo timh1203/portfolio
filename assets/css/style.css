@@ -237,7 +237,8 @@ hr {
   margin: 10px;
   width: 8em;
 }
-#myResume {
+#myResume,
+#fccCertification {
   width: auto;
   margin: 1%;
   padding: 1%;
@@ -248,7 +249,8 @@ hr {
   transition: all 0.2s ease;  
 }
 
-#myResume:hover{
+#myResume:hover,
+#fccCertification:hover {
   background-color: lightslategray;
   transform: scale(1.05);
   border-radius: 20px;
