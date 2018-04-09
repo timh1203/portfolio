@@ -238,19 +238,21 @@ hr {
   width: 8em;
 }
 #myResume,
-#fccCertification {
+#fccCertificate,
+#udemyCertificate {
   width: auto;
   margin: 1%;
   padding: 1%;
   border-radius: 5px;
-  font-size: medium;
+  font-size: small;
   font-family: 'Playfair Display', sans-serif;
   box-shadow: 1px 1px 10px black;
   transition: all 0.2s ease;  
 }
 
 #myResume:hover,
-#fccCertification:hover {
+#fccCertificate:hover,
+#udemyCertificate:hover {
   background-color: lightslategray;
   transform: scale(1.05);
   border-radius: 20px;
