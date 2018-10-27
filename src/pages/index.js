@@ -1,13 +1,14 @@
 import React from 'react'
 import styled from 'styled-components'
 
+import Nav from '../components/Nav.js'
+
 const IndexPage = () => (
   <Div1>
-    <H1a>IndexPage</H1a>
+    <Nav />
   </Div1>
 )
 
 const Div1 = styled.div``
-const H1a = styled.h1``
 
 export default IndexPage

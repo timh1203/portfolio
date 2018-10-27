@@ -921,6 +921,10 @@
             "version": "^5.2.0"
           },
           {
+            "name": "react-icons",
+            "version": "^3.2.2"
+          },
+          {
             "name": "styled-components",
             "version": "^4.0.2"
           }
@@ -1046,12 +1050,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-10-27T18:19:20.345Z",
+      "buildTime": "2018-10-27T18:50:44.565Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "4db3dccbd5a3eaed9362fc94b8901864",
+        "contentDigest": "179ca9388017040c579c5c28c89e6bf5",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1061,7 +1065,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "166075221c30bf8de19484a628e396c9",
+        "contentDigest": "7a4442b1ebc974daabb30ee8e7b806c1",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -1073,7 +1077,7 @@
       "size": 128,
       "prettySize": "128 B",
       "modifiedTime": "2018-10-27T17:52:21.966Z",
-      "accessTime": "2018-10-27T18:19:38.490Z",
+      "accessTime": "2018-10-27T18:51:06.251Z",
       "changeTime": "2018-10-27T17:52:21.966Z",
       "birthTime": "2018-10-27T17:52:21.946Z",
       "root": "/",
@@ -1091,11 +1095,11 @@
       "blksize": 4096,
       "ino": 28849359,
       "blocks": 0,
-      "atimeMs": 1540664378489.8252,
+      "atimeMs": 1540666266251.3745,
       "mtimeMs": 1540662741965.6836,
       "ctimeMs": 1540662741965.6836,
       "birthtimeMs": 1540662741946.2832,
-      "atime": "2018-10-27T18:19:38.490Z",
+      "atime": "2018-10-27T18:51:06.251Z",
       "mtime": "2018-10-27T17:52:21.966Z",
       "ctime": "2018-10-27T17:52:21.966Z",
       "birthtime": "2018-10-27T17:52:21.946Z"
@@ -1120,7 +1124,7 @@
       "size": 21212,
       "prettySize": "21.2 kB",
       "modifiedTime": "2018-10-27T17:52:21.966Z",
-      "accessTime": "2018-10-27T18:13:00.832Z",
+      "accessTime": "2018-10-27T18:29:00.100Z",
       "changeTime": "2018-10-27T17:52:21.966Z",
       "birthTime": "2018-10-27T17:52:21.966Z",
       "root": "/",
@@ -1138,11 +1142,11 @@
       "blksize": 4096,
       "ino": 28849361,
       "blocks": 48,
-      "atimeMs": 1540663980831.773,
+      "atimeMs": 1540664940099.5916,
       "mtimeMs": 1540662741965.8972,
       "ctimeMs": 1540662741965.8972,
       "birthtimeMs": 1540662741965.675,
-      "atime": "2018-10-27T18:13:00.832Z",
+      "atime": "2018-10-27T18:29:00.100Z",
       "mtime": "2018-10-27T17:52:21.966Z",
       "ctime": "2018-10-27T17:52:21.966Z",
       "birthtime": "2018-10-27T17:52:21.966Z"
@@ -1177,7 +1181,7 @@
       "size": 167273,
       "prettySize": "167 kB",
       "modifiedTime": "2018-10-27T17:52:21.948Z",
-      "accessTime": "2018-10-27T18:16:32.874Z",
+      "accessTime": "2018-10-27T18:33:17.212Z",
       "changeTime": "2018-10-27T17:52:21.948Z",
       "birthTime": "2018-10-27T17:52:21.946Z",
       "root": "/",
@@ -1195,11 +1199,11 @@
       "blksize": 4096,
       "ino": 28849360,
       "blocks": 328,
-      "atimeMs": 1540664192873.955,
+      "atimeMs": 1540665197212.0364,
       "mtimeMs": 1540662741947.963,
       "ctimeMs": 1540662741947.963,
       "birthtimeMs": 1540662741946.418,
-      "atime": "2018-10-27T18:16:32.874Z",
+      "atime": "2018-10-27T18:33:17.212Z",
       "mtime": "2018-10-27T17:52:21.948Z",
       "ctime": "2018-10-27T17:52:21.948Z",
       "birthtime": "2018-10-27T17:52:21.946Z"
@@ -1234,22 +1238,22 @@
         "owner": "internal-data-bridge"
       }
     },
-    "SitePage /Index/": {
-      "jsonName": "index-ada",
+    "SitePage /": {
+      "jsonName": "index",
       "internalComponentName": "ComponentIndex",
-      "path": "/Index/",
-      "component": "/Users/timh1203/portfolio/src/pages/Index.js",
+      "path": "/",
+      "component": "/Users/timh1203/portfolio/src/pages/index.js",
       "componentChunkName": "component---src-pages-index-js",
       "context": {},
       "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
       "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "/Users/timh1203/portfolio/src/pages/Index.js",
-      "id": "SitePage /Index/",
+      "componentPath": "/Users/timh1203/portfolio/src/pages/index.js",
+      "id": "SitePage /",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "e5baec5aac2282accd856e66d1304378",
+        "contentDigest": "3c87ab6c9a5eb76cbcde8ab91a2af45d",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -1273,31 +1277,11 @@
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
-    },
-    "SitePage /": {
-      "jsonName": "index",
-      "internalComponentName": "ComponentIndex",
-      "path": "/",
-      "component": "/Users/timh1203/portfolio/src/pages/index.js",
-      "componentChunkName": "component---src-pages-index-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
-      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "/Users/timh1203/portfolio/src/pages/index.js",
-      "id": "SitePage /",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "3c87ab6c9a5eb76cbcde8ab91a2af45d",
-        "description": "Plugin gatsby-plugin-page-creator",
-        "owner": "internal-data-bridge"
-      }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "6142eb30386dd1e1c3730404220581dd"
+    "PLUGINS_HASH": "0272269370c79bc3cc4da6b01ea6e572"
   },
   "componentDataDependencies": {
     "nodes": {
@@ -1330,10 +1314,6 @@
     "/Users/timh1203/portfolio/src/pages/404.js": {
       "query": "",
       "componentPath": "/Users/timh1203/portfolio/src/pages/404.js"
-    },
-    "/Users/timh1203/portfolio/src/pages/Index.js": {
-      "query": "",
-      "componentPath": "/Users/timh1203/portfolio/src/pages/Index.js"
     },
     "/Users/timh1203/portfolio/src/pages/index.js": {
       "query": "",
