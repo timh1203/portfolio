@@ -4,8 +4,8 @@ import styled from 'styled-components'
 const Home = () => {
   return (
     <Div1>
-      <H1a>Full Stack Developer</H1a>
-      <H2a>Lambda School Student</H2a>
+      <H1a>Lambda School Student</H1a>
+      <H2a>Graduation: May 2019</H2a>
       <H3a>"A mind stretched by new expriences can never go back to its old dimensions."</H3a>
     </Div1>
   )

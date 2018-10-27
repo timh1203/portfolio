@@ -8,6 +8,7 @@ const Nav = () => {
   return (
     <Div1>
       <H1a>Timothy Hoang</H1a>
+      <P1>Full Stack Developer</P1>
       <P1>Houston, Texas</P1>
 
       <Div2>
