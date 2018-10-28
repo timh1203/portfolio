@@ -1,39 +1,35 @@
 import React from 'react'
-import styled from 'styled-components'
 import Link from 'gatsby-link'
+import styled from 'styled-components'
 
+import { Div, H1, P } from './globals'
 import { FaGithub, FaLinkedin, FaFreeCodeCamp, FaMedium, FaTwitter } from 'react-icons/fa';
 
 const Nav = () => {
   return (
-    <Div1>
-      <H1a>Timothy Hoang</H1a>
-      <P1>Full Stack Developer</P1>
-      <P1>Houston, Texas</P1>
+    <Div>
+      <H1>Timothy Hoang</H1>
+      <P>Full Stack Developer</P>
+      <P>Houston, Texas</P>
 
-      <Div2>
+      <Div>
         <FaGithub1 />
         <FaLinkedin1 />
         <FaFreeCodeCamp1 />
         <FaMedium1 />
         <FaTwitter1 />
-      </Div2>
+      </Div>
 
-      <Div3>
+      <Div>
         <Link to="#">Home</Link>
         <Link to="#">About</Link>
         <Link to="#">Portfolio</Link>
         <Link to="#">Contact</Link>
-      </Div3>
-    </Div1>
+      </Div>
+    </Div>
   )
 }
 
-const Div1 = styled.div``
-const Div2 = styled.div``
-const Div3 = styled.div``
-const H1a = styled.h1``
-const P1 = styled.p``
 const FaGithub1 = styled(FaGithub)`
   color: white;
   background: #24292E;
